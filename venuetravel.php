@@ -8,18 +8,18 @@
     <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
   </head>
   <body id="venuetravel">
-
 		<section class="container">
 			<div class="content row">
 				<section class="main col col-lg-8">
-
+                <?php include_once ('_/php/header.php') ?>
 				</section><!-- main -->
 				<section class="sidebar col col-lg-4">
 
 				</section><!-- sidebar -->
 			</div><!-- content -->
 		</section><!-- container -->
-
+        <?php include_once ('_/php/footer.php') ?>
+    <script src="_/js/jquery.js"></script>
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myscript.js"></script>
   </body>
