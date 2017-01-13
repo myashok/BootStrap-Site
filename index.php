@@ -10,15 +10,17 @@
   <body id="home">
       <section class="container">
           <div class="content row">
+              <?php include "_/php/header.php"; ?>
+              <?php include "_/php/carousel.php"; ?>
               <section class="main col col-lg-8">
-                  <?php include_once ('_/php/header.php') ?>
+                  <?php include "_/php/article-intro.php"; ?>
+                  <?php include "_/php/article-abouttheartist.php"; ?>
               </section><!-- main -->
               <section class="sidebar col col-lg-4">
-
               </section><!-- sidebar -->
           </div><!-- content -->
+          <?php include "_/php/footer.php"; ?>
       </section><!-- container -->
-      <?php include_once ('_/php/footer.php') ?>
       <script src="_/js/jquery.js"></script>
       <script src="_/js/bootstrap.js"></script>
       <script src="_/js/myscript.js"></script>

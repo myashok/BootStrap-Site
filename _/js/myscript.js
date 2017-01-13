@@ -13,4 +13,6 @@ $(function () {
             $('.dropdown-menu', this).fadeOut('fast');
         }
     );
+    //show tooltips
+    $("[data-toggle='tooltip']").tooltip({ animation: true});
 }); //executes when jquery loads;
